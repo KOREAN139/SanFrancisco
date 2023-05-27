@@ -1,123 +1,14 @@
 fileFormatVersion: 2
-guid: 1fb1d1a1a160d984b94639ca1a8927d1
+guid: 08c60fa81d7edd68eac8ab91e7ba4d9f
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: folsomandbeale:doubledoor
-  - first:
-      1: 100004
-    second: folsomandbeale:lowerwindow
-  - first:
-      1: 100006
-    second: folsomandbeale:redbrick
-  - first:
-      1: 100008
-    second: folsomandbeale:roof
-  - first:
-      1: 100010
-    second: folsomandbeale:upperwindow
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: folsomandbeale:doubledoor
-  - first:
-      4: 400004
-    second: folsomandbeale:lowerwindow
-  - first:
-      4: 400006
-    second: folsomandbeale:redbrick
-  - first:
-      4: 400008
-    second: folsomandbeale:roof
-  - first:
-      4: 400010
-    second: folsomandbeale:upperwindow
-  - first:
-      23: 2300000
-    second: folsomandbeale:doubledoor
-  - first:
-      23: 2300002
-    second: folsomandbeale:lowerwindow
-  - first:
-      23: 2300004
-    second: folsomandbeale:redbrick
-  - first:
-      23: 2300006
-    second: folsomandbeale:roof
-  - first:
-      23: 2300008
-    second: folsomandbeale:upperwindow
-  - first:
-      33: 3300000
-    second: folsomandbeale:doubledoor
-  - first:
-      33: 3300002
-    second: folsomandbeale:lowerwindow
-  - first:
-      33: 3300004
-    second: folsomandbeale:redbrick
-  - first:
-      33: 3300006
-    second: folsomandbeale:roof
-  - first:
-      33: 3300008
-    second: folsomandbeale:upperwindow
-  - first:
-      43: 4300000
-    second: folsomandbeale:redbrick
-  - first:
-      43: 4300002
-    second: folsomandbeale:upperwindow
-  - first:
-      43: 4300004
-    second: folsomandbeale:roof
-  - first:
-      43: 4300006
-    second: folsomandbeale:doubledoor
-  - first:
-      43: 4300008
-    second: folsomandbeale:lowerwindow
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: folsomandbeale_doubledoorF
-    second: {fileID: 2100000, guid: 7bbab5d5b268f78408ba67001712de66, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: folsomandbeale_lowerwindowF
-    second: {fileID: 2100000, guid: aa32fa44c000d3244a8819c512695f70, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: folsomandbeale_redbrickF
-    second: {fileID: 2100000, guid: 9c11444a9a945694dbfc27434196f11c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: folsomandbeale_roofF
-    second: {fileID: 2100000, guid: 7be8113234d764d4297e9ca1859690b1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: folsomandbeale_upperwindowF
-    second: {fileID: 2100000, guid: 35fde41c8f1fe584db8d3c4216c62b76, type: 2}
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -138,52 +29,51 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties:
-    - FocalLength
-    - FilmWidth
-    - FilmHeight
-    - NearPlane
-    - FarPlane
-    - CameraProjectionType
+    extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 0
+    sortHierarchyByName: 1
+    importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 0
+    importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
-  copyAvatar: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -195,14 +85,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
-    skeletonHasParents: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

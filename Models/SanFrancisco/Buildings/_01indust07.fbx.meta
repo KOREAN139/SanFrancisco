@@ -1,83 +1,14 @@
 fileFormatVersion: 2
-guid: df07d5eead52ff14d93d1c882e8bfb6a
+guid: cf25b605aa4b82121b06710d48bd6249
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: _01indust07:doubledoor
-  - first:
-      1: 100004
-    second: _01indust07:redbrick
-  - first:
-      1: 100006
-    second: _01indust07:upperwindow
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: _01indust07:doubledoor
-  - first:
-      4: 400004
-    second: _01indust07:redbrick
-  - first:
-      4: 400006
-    second: _01indust07:upperwindow
-  - first:
-      23: 2300000
-    second: _01indust07:doubledoor
-  - first:
-      23: 2300002
-    second: _01indust07:redbrick
-  - first:
-      23: 2300004
-    second: _01indust07:upperwindow
-  - first:
-      33: 3300000
-    second: _01indust07:doubledoor
-  - first:
-      33: 3300002
-    second: _01indust07:redbrick
-  - first:
-      33: 3300004
-    second: _01indust07:upperwindow
-  - first:
-      43: 4300000
-    second: _01indust07:redbrick
-  - first:
-      43: 4300002
-    second: _01indust07:upperwindow
-  - first:
-      43: 4300004
-    second: _01indust07:doubledoor
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _01indust07_doubledoorF
-    second: {fileID: 2100000, guid: f99a59eabac531047bfab35020b6359f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _01indust07_redbrickF
-    second: {fileID: 2100000, guid: cb4a7f1d6824e3c4bbcf6ee7ce3f982f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _01indust07_upperwindowF
-    second: {fileID: 2100000, guid: c52621835b6bfa84ba5c0e8432801d75, type: 2}
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -98,52 +29,51 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties:
-    - FocalLength
-    - FilmWidth
-    - FilmHeight
-    - NearPlane
-    - FarPlane
-    - CameraProjectionType
+    extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 0
+    sortHierarchyByName: 1
+    importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 0
+    importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
-  copyAvatar: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -155,14 +85,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
-    skeletonHasParents: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

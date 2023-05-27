@@ -1,123 +1,14 @@
 fileFormatVersion: 2
-guid: d585a5e4366e87244bdd3f05e51ab060
+guid: 9e611fee341aa4e8cb445fba0e629739
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: __greyhound:doubledoor
-  - first:
-      1: 100004
-    second: __greyhound:redbrick
-  - first:
-      1: 100006
-    second: __greyhound:rollup
-  - first:
-      1: 100008
-    second: __greyhound:roof
-  - first:
-      1: 100010
-    second: __greyhound:upperwindow
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: __greyhound:doubledoor
-  - first:
-      4: 400004
-    second: __greyhound:redbrick
-  - first:
-      4: 400006
-    second: __greyhound:rollup
-  - first:
-      4: 400008
-    second: __greyhound:roof
-  - first:
-      4: 400010
-    second: __greyhound:upperwindow
-  - first:
-      23: 2300000
-    second: __greyhound:doubledoor
-  - first:
-      23: 2300002
-    second: __greyhound:redbrick
-  - first:
-      23: 2300004
-    second: __greyhound:rollup
-  - first:
-      23: 2300006
-    second: __greyhound:roof
-  - first:
-      23: 2300008
-    second: __greyhound:upperwindow
-  - first:
-      33: 3300000
-    second: __greyhound:doubledoor
-  - first:
-      33: 3300002
-    second: __greyhound:redbrick
-  - first:
-      33: 3300004
-    second: __greyhound:rollup
-  - first:
-      33: 3300006
-    second: __greyhound:roof
-  - first:
-      33: 3300008
-    second: __greyhound:upperwindow
-  - first:
-      43: 4300000
-    second: __greyhound:redbrick
-  - first:
-      43: 4300002
-    second: __greyhound:upperwindow
-  - first:
-      43: 4300004
-    second: __greyhound:roof
-  - first:
-      43: 4300006
-    second: __greyhound:doubledoor
-  - first:
-      43: 4300008
-    second: __greyhound:rollup
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: __greyhound_doubledoorF
-    second: {fileID: 2100000, guid: c65192324453d034bb4bf830eefd140d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: __greyhound_redbrickF
-    second: {fileID: 2100000, guid: 0a007c55f509f16448bf5ff651b5b46c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: __greyhound_rollupF
-    second: {fileID: 2100000, guid: daec885efdc29be4a98768e66ccca994, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: __greyhound_roofF
-    second: {fileID: 2100000, guid: 51b47df5e2863424cb4fc70f660e6a6b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: __greyhound_upperwindowF
-    second: {fileID: 2100000, guid: fbdcb18a1a72da041be76f949bb0037b, type: 2}
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -138,52 +29,51 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties:
-    - FocalLength
-    - FilmWidth
-    - FilmHeight
-    - NearPlane
-    - FarPlane
-    - CameraProjectionType
+    extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 0
+    sortHierarchyByName: 1
+    importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 0
+    importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
-  copyAvatar: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -195,14 +85,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
-    skeletonHasParents: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
